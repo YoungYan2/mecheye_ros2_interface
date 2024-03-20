@@ -6,7 +6,7 @@ This repository contains the ROS 2 interface for Mech-Eye Industrial 3D Camera.
 
 ### ROS and Ubuntu Version Requirements
 
-Ubuntu 20.04 and [ROS Galactic](https://docs.ros.org/en/galactic/Installation/Ubuntu-Install-Debians.html) have been tested to work with this interface.
+Ubuntu 20.04 and [ROS Humble](https://docs.ros.org/en/humble/Installation/Ubuntu-Install-Debians.html) have been tested to work with this interface.
 
 ### Dependencies
 
@@ -16,13 +16,13 @@ Ubuntu 20.04 and [ROS Galactic](https://docs.ros.org/en/galactic/Installation/Ub
 |     PCL      |     >= 1.8    |
 | Mech-Eye API |     latest    |
 
-If you have installed 'ros-galactic-desktop' successfully, run the following commands to install the dependencies.
+If you have installed 'ros-humble-desktop' successfully, run the following commands to install the dependencies.
 
 ```bash
 sudo apt install libopencv-dev
-sudo apt install ros-galactic-cv-bridge
+sudo apt install ros-humble-cv-bridge
 sudo apt install libpcl-dev
-sudo apt install ros-galactic-pcl-conversions
+sudo apt install ros-humble-pcl-conversions
 sudo apt install python3-colcon-common-extensions
 ```
 ### Install Mech-Eye API
